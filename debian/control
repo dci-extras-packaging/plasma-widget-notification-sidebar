@@ -1,0 +1,18 @@
+Source: plasma-widget-notification-sidebar
+Section: unknown
+Priority: optional
+Maintainer: Rohan Garg <rohan@kde.org>
+Build-Depends: debhelper (>=9),
+               extra-cmake-modules,
+               libkf5windowsystem-dev,
+               pkg-kde-tools,
+               plasma-framework-dev,
+               qtbase5-dev
+Standards-Version: 3.9.8
+Homepage: https://github.com/plasma-extensions/plasma-widget-notification-sidebar
+
+Package: plasma-widget-notification-sidebar
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: sidebar widget for Plasma 5
+ Widget that displays notifications in the sidebar on Plasma 5

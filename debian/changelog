@@ -1,0 +1,5 @@
+plasma-widget-notification-sidebar (0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Rohan Garg <rohan@kde.org>  Tue, 23 Aug 2016 18:12:46 +0200
